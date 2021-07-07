@@ -29,3 +29,7 @@ Also, to run GUI apps (such as gedit, etc.) you will require install x-server on
   (i) Installation link of X410 (Note: Altough it's a paid software, we will use the trial version. It would last easily for 2 months.): https://www.microsoft.com/store/apps/9nlp712zmn9q 
   
   (ii) Setup link for X410 on WSL2: https://x410.dev/cookbook/wsl/using-x410-with-wsl2/  
+
+---
+
+### Once you are done with these steps return to the main instrutions [here](Install.md).
