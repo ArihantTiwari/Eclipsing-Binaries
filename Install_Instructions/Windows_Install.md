@@ -14,7 +14,7 @@ You will find the detailed installation instrucions here: https://docs.microsoft
 
 1. In the simplified install section of the above link, windows will install Ubuntu by default. To change that you can do:
 
-    wsl --install -d <Distribution Name>
+        wsl --install -d <Distribution Name>
     
 For our purpose, preferred would be Ubuntu 20.04
 
