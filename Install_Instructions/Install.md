@@ -2,7 +2,7 @@
 
 # For Windows
 
-If you are using a Windows machine, first check out the setup instructions [here](). In these instructions, you will be setting up Windows Subsystem for Linux (WSL). 
+If you are using a Windows machine, first check out the setup instructions [here](Install_Instructions/Windows_Install.md). In these instructions, you will be setting up Windows Subsystem for Linux (WSL). 
 
 The Windows Subsystem for Linux lets developers run a GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dualboot setup. WSL is faster and highy efficient than using VM or Dual Boot. To read about this more, you can visit this page: https://docs.microsoft.com/en-us/windows/wsl/about
 
@@ -37,6 +37,15 @@ For Arch-Linux
     
 For other Linux distributions, check out here: https://git-scm.com/download/linux
 
+---
+
+#### Note: For WSL users
+
+Windows and Linux use slightly different line endings. This sometimes causes Linux or Windows to think a file is modified in git when it hasn't been due to different line ending usage. In Linux, run the following line to fix this:
+
+    git config --global core.autocrlf true
+---
+
 ## Python
 We recommend you to use an Anaconda Python installation. 
 
@@ -54,7 +63,15 @@ You can find Anaconda installation instructions here: https://docs.anaconda.com/
 
 ---
 
-## Conda Environment
+Now that we have a Python environment for this project, let's install packages that we need. First we want to install `numpy` through conda so that it is compiled with MKL/BLAS so that we can parallelize linear algebra operations. 
+
+    conda install numpy scipy astropy matplotlib
+    
+To update your python packages in conda, run:
+
+    conda update -y --all
+
+## Conda Environment (Optional)
 For all Python users, we strongly recommend that you use conda environments to manage multiple Python versions for multiple projects, especially if you already have python installed for other projects. This prevents projects having conflicting dependencies as each project can have its own Python. Let's create an environment that uses Python 3.
 
     conda create -n ksp python=3.6
@@ -67,10 +84,26 @@ Then, any time you want to use this version of Python from the command line, run
 
     which python
 
-Now that we have a Python environment for this workshop, let's install packages that we need. First we want to install `numpy` through conda so that it is compiled with MKL/BLAS so that we can parallelize linear algebra operations. 
+Now that we have a Python environment for this project, let's install packages that we need. First we want to install `numpy` through conda so that it is compiled with MKL/BLAS so that we can parallelize linear algebra operations. 
 
     conda install numpy scipy astropy matplotlib
     
+To update your python packages in conda, run:
+
+    conda update -y --all
+
+## Jupyter Notebook
+
+We will be using Interactive Python Notebooks (ipynb) for the majority of our project. You can use Jupyter notebook to run ipynb notebooks. You can also use _Spyder_ or _VSCode_ for this purpose but I have felt that Jupyter Notebooks are more intutive.
+
+Jupyter Notebooks are automatically installed on Anaconda by default. 
+
+To run the notebook in conda (remember to activate ksp environment before running jupyter):
+    
+    jupyter-notebook
+
+Additionally, you can install some set of extensions for your jupyter notebook to have more functionality and to improve your coding experience. To install jupyter nbextensions, find the instructions here: https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
+
 ## PHOEBE
 
 <img align="left" src="http://phoebe-project.org/logos/logo_release_23.svg" width="120">
