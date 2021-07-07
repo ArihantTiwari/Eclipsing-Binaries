@@ -2,7 +2,7 @@
 
 # For Windows
 
-If you are using a Windows machine, first check out the setup instructions [here](Install_Instructions/Windows_Install.md). In these instructions, you will be setting up Windows Subsystem for Linux (WSL). 
+If you are using a Windows machine, first check out the setup instructions [here](Windows_Install.md). In these instructions, you will be setting up Windows Subsystem for Linux (WSL). 
 
 The Windows Subsystem for Linux lets developers run a GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dualboot setup. WSL is faster and highy efficient than using VM or Dual Boot. To read about this more, you can visit this page: https://docs.microsoft.com/en-us/windows/wsl/about
 
