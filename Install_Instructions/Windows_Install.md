@@ -7,16 +7,18 @@ As PHOEBE cannot build and run on windows natively *yet*, therefore we will be u
 ## Install WSL2
 
 You will find the detailed installation instrucions here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
 ---
 
-** Note **
+## Note ##
 
-In the simplified install section of the above link, windows will install Ubuntu by default. To change that you can do:
+1. In the simplified install section of the above link, windows will install Ubuntu by default. To change that you can do:
 
     wsl --install -d <Distribution Name>
     
 For our purpose, preferred would be Ubuntu 20.04
 
+2. When using WSL2, do not use space while naming your folder or files instead use underscore instead of space. For ex. instead KSP EB, do KSP_EB. Linux isn't good with space in file paths and hence gives critical errors. 
 ---
 
 ## Running GUI apps on WSL2
