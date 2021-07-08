@@ -13,9 +13,10 @@ Some commands to run before we start with other package installation:
 
     sudo apt-get update && sudo apt-get -y upgrade
     sudo apt-get install python3-pip
-    sudo apt-get install gcc g++
+    sudo apt-get install gcc 
+    sudo apt-get install g++
 
-Additionally, in order to build the C-sources, make sure you have Python.h headers for the correct version of python3, by installing python3-dev via your package manager.
+Additionally, in order to build the C-sources, make sure you have Python.h headers for the correct version of python3, by installing **python3-dev** via your package manager.
  
   For Debian based linux distribution:
     
@@ -56,7 +57,8 @@ You can find Anaconda installation instructions here: https://docs.anaconda.com/
 
 1. When installing anaconda be sure to follow the prompts and say `yes` to running `conda init` at the last prompt! If you don't your terminal may not be able to recognize the `conda` command. If you miss it you can run it manually with:
 ```
-/[conda install directory]/bin/conda init
+> source /[conda install directory]/bin/activate
+> conda init
 ```
 
 2. Be sure to restart your terminal after installing conda and running `conda init` to apply the changes! Otherwise you will still be left with the unrecognized `conda` command error. 
