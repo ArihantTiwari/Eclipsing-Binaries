@@ -24,11 +24,6 @@ _As this section majorly lists resources, hence it will be frequently updated. S
         2. Double Star Primer - https://www.handprint.com/ASTRO/bineye5.html
         3. Binary Stars: A Cheat Sheet* - https://arxiv.org/pdf/1912.13400.pdf
         4. Binary Star systems - https://sites.ualberta.ca/~pogosyan/teaching/ASTRO_122/lect13/lecture13.html
-        5. Eclipsing Binaries: Our Winking Budddies* - https://www.youtube.com/watch?v=_MQtwnQ83c4&t=47s
-        6. Precision stellar astrophysics with eclipsing binary stars in the era of Kepler, TESS and Gaia* - https://online.kitp.ucsb.edu/online/exostar19/maxted/
-        7. Eclipsing Binaries in Open Clusters* - https://slidetodoc.com/eclipsing-binaries-in-open-clusters-john-southworth-dr-2/
-        8. Eclipsing Binaries: The Royal Road* - https://www.britastro.org/vss/southworth.pdf
-        9. Eclipsing Binary Stars as Astrophysical Laboratorie - https://www.juniata.edu/offices/juniata-voices/media/bleaky-eclipsing.pdf
   
   2. Solving the Two-Body Problem for Binary Stars
         1. Two-Body Problem - https://www.math.ksu.edu/~dbski/writings/twobody.pdf
@@ -37,6 +32,21 @@ _As this section majorly lists resources, hence it will be frequently updated. S
         4. Orbital & Dynamic Elements* - https://www.handprint.com/ASTRO/bineye3.html
         5. Astrophysics of Binary Stars* - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVOgOdd8fo2AyaxAo7FgL2I
 
+  3. Eclipsing Binaries & PHOEBE
+        1. Eclipsing Binaries: Our Winking Budddies* - https://www.youtube.com/watch?v=_MQtwnQ83c4&t=47s
+        2. Precision stellar astrophysics with eclipsing binary stars in the era of Kepler, TESS and Gaia* - https://online.kitp.ucsb.edu/online/exostar19/maxted/
+        3. Eclipsing Binaries in Open Clusters* - https://slidetodoc.com/eclipsing-binaries-in-open-clusters-john-southworth-dr-2/
+        4. Eclipsing Binaries: The Royal Road* - https://www.britastro.org/vss/southworth.pdf
+        5. Eclipsing Binary Stars as Astrophysical Laboratorie - https://www.juniata.edu/offices/juniata-voices/media/bleaky-eclipsing.pdf
+        6. PHOEBE - http://phoebe-project.org/
+        7. PHOEBE 2021 Workshop Material (recordings and tutorial notebooks) - http://phoebe-project.org/workshops/2021june/materials
+        8. PHOEBE Publications (various pubs by PHOEBE team and others who used it in their research)http://phoebe-project.org/publications
+  5. Tools 
+        1. Master GIT in 7 minutes - https://dev.to/valeriavg/master-git-in-7-minutes-gai
+        2. Visualizing GIT - http://git-school.github.io/visualizing-git/
+        3. LaTeX Overleaf tutorials - https://youtube.com/playlist?list=PLnC5h3PY-znyDQKn3knfXfekZLgWyL7QW
+        4. Overleaf tutorials - https://www.overleaf.com/learn/latex/Tutorials
+ 
 *Recommended
 
 ## Week 2
@@ -52,3 +62,13 @@ _Deadline to submit the following assignments - **17th July 2021 10:00 A.M. IST*
       2. _Optional_, create 2D simulation of the Orbit of your system using Matplotlib or any other python package
 
 3. Proposal - Submit a proposal stating your goals for this project and what would you want to achieve by the end of 2 months. You can propose anything you want as far as it is related to the topic. For ex. literature review, animations and simulations, fitting a real dataset, various EB modelling package/fitting techniques comparison, creating your own python package relating to EBs, etc. You can also look out for work done on EBs through papers, conference articles and talks to get an idea of what is going on with respect to EBs (Some resources are listed in the Week 1 - Resources section).
+
+
+
+## Week 3
+
+1. Upload your last week's assignment on your own GitHub accounts using `git` and terminal only. Those who don't have much experience with `git`, you can follow the links in Tools part. 
+
+2. Go through the links given in Eclipsing Binaries & PHOEBE part in Resources section. (For the links related to PHOEBE just take an overview. Not neccesary to do in-depth reading of them for this week)
+
+3. Start digging up on your proposals and create a workflow for it.
