@@ -40,7 +40,8 @@ _As this section majorly lists resources, hence it will be frequently updated. S
         5. Eclipsing Binary Stars as Astrophysical Laboratorie - https://www.juniata.edu/offices/juniata-voices/media/bleaky-eclipsing.pdf
         6. PHOEBE - http://phoebe-project.org/
         7. PHOEBE 2021 Workshop Material (recordings and tutorial notebooks) - http://phoebe-project.org/workshops/2021june/materials
-        8. PHOEBE Publications (various pubs by PHOEBE team and others who used it in their research)http://phoebe-project.org/publications
+        8. PHOEBE Publications (various pubs by PHOEBE team and others who used it in their research) - http://phoebe-project.org/publications
+        9. MCMC: A (very) Beginnner’s Guide - https://prappleizer.github.io/Tutorials/MCMC/MCMC_Tutorial.html
   5. Tools 
         1. Master GIT in 7 minutes - https://dev.to/valeriavg/master-git-in-7-minutes-gai
         2. Visualizing GIT - http://git-school.github.io/visualizing-git/
@@ -72,3 +73,12 @@ _Deadline to submit the following assignments - **17th July 2021 10:00 A.M. IST*
 2. Go through the links given in Eclipsing Binaries & PHOEBE part in Resources section. (For the links related to PHOEBE just take an overview. Not neccesary to do in-depth reading of them for this week)
 
 3. Start digging up on your proposals and create a workflow for it.
+
+
+## Week 4
+
+1. No specific assignments from now on. Work on your proposal accroding to your pace. 
+2. Start working on your report. Do not leave it for the last moment because report writing takes time and patience. You can use any thesis templates like these:
+      1. OxThesis: https://github.com/mcmanigle/OxThesis 
+      2. MUniCS Master's Thesis template - https://www.overleaf.com/latex/templates/modelo-tfm-munics-munics-masters-thesis-template/gwhhjkdkvyzz
+      3. HPI Bachelor and Master Thesis template - https://www.overleaf.com/latex/templates/hpi-bachelor-and-master-thesis-template/tfnkxhwbrzpy
